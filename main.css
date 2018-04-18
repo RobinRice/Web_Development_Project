@@ -1,0 +1,31 @@
+/*
+Caleb's page
+mock css file
+feel free to re-write this whole damn thing
+*/
+
+h1{
+	text-align: center;
+}
+
+/*Photo Gallery style here*/
+#gallery_table{
+	/* Suggestions
+	  if in mobile view --> two columns
+	  if in desktop/tablet view --> four columns*/
+	  background-color: lightblue; /*This is just for testing purposes*/
+}
+
+/*This container class is mainly to keep the logo image centered*/
+.container{
+	text-align: center;
+}
+
+@media screen and (max-width:759px){
+	.logo_picture{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}
