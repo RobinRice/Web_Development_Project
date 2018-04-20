@@ -2,7 +2,7 @@
 <!--Sarah's page-->
 <html lang="en">
 	<head>
-		<title>Feedback</title>
+		<title>Inked Custom Tattoos - Feedback</title>
 		<meta charset="utf-8">		
 		<link rel="stylesheet" href="main.css">
 	</head>
@@ -27,8 +27,44 @@
 			Create a function that rates the business on a 1 to 5 scale. You can use radio buttons for this.<br>
 			For the sake of requirements, we need to store user data. Just ask their name and contact info or something<br>
 			We'll have to prove that we can access it as a cookie or something.
+			3 rows.
+				1 - star rating
+				2 - feedback comment section
+				3 - submit button
 			</p>
 			
+			<form>
+				<table align="center" border="1" width="80%" cellpadding="5" cellspacing="10"  id="table3"> <!--Put this into the CSS file-->
+					<tr>
+						<td colspan=2>Customer Feedback</td>
+					</tr>
+					<tr>
+						<td col width=250>Star Rating:</td>
+						<td colspan=1>
+								1 <input type="radio" name="rating" value="1" id="r1"/>&nbsp;&nbsp;&nbsp;&nbsp;
+								2 <input type="radio" name="rating" value="2" id="r2"/>&nbsp;&nbsp;&nbsp;&nbsp;
+								3 <input type="radio" name="rating" value="3" id="r3"/>&nbsp;&nbsp;&nbsp;&nbsp;
+								4 <input type="radio" name="rating" value="4" id="r4"/>&nbsp;&nbsp;&nbsp;&nbsp;
+								5 <input type="radio" name="rating" value="5" id="r5"/>
+						
+						</td>					
+					</tr>
+					<tr>
+						<td col width=250>Feedback:</td>
+						<td colspan=1>
+							<textarea rows="5" cols="100" maxlength=750></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan=2><input type="submit" value="Submit"></td>
+					</tr>
+					
+				</table>
+			</form>	
 		</div>
+		<footer id="footer">
+			<hr>
+			<p>Posted by: CRS Team. Contact information: <a href="mailto:someone@example.com">CRSteam@gmail.com</a>. Last modifed: April, 2018</p>
+		</footer>
 	</body>
 </html>
